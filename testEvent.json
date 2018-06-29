@@ -1,0 +1,38 @@
+{
+    "Records": [
+        {
+            "eventVersion": "2.0",
+            "eventSource": "aws:s3",
+            "awsRegion": "us-east-1",
+            "eventTime": "2018-04-09T14:33:12.732Z",
+            "eventName": "ObjectCreated:Put",
+            "userIdentity": {
+                "principalId": "A1HJHJYZV0NUS7"
+            },
+            "requestParameters": {
+                "sourceIPAddress": "164.144.248.26"
+            },
+            "responseElements": {
+                "x-amz-request-id": "5756445F292F1172",
+                "x-amz-id-2": "ZqRqD7zyvlaodJ4qzv+Rq5JgFhWjzWOKiRleAcIwXb/6BZfEi0PKxrOQwMLhepjLb3vrbeH0tZE="
+            },
+            "s3": {
+                "s3SchemaVersion": "1.0",
+                "configurationId": "188bebb1-9181-447d-bb79-045a9cdb3e5c",
+                "bucket": {
+                    "name": "facet-team-us-east-1-285453578300",
+                    "ownerIdentity": {
+                        "principalId": "A1HJHJYZV0NUS7"
+                    },
+                    "arn": "arn:aws:s3:::facet-team-us-east-1-285453578300"
+                },
+                "object": {
+                    "key": "seedscripts/tmp/json/davetest.json",
+                    "size": 18682,
+                    "eTag": "8b2750966f8b5eb57e2dc7687540021e",
+                    "sequencer": "005ACB79A8A7508190"
+                }
+            }
+        }
+    ]
+}

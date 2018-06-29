@@ -1,0 +1,20 @@
+{
+  "name": "seedscripts-lambda-report-download",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to generate a zip file for download",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.179.0",
+    "s3-zip": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.platforms.engineering/SeedScripts/seedscripts-lambda-report-download.git"
+  },
+  "author": "David Matlock <david.matlock@monsanto.com>",
+  "license": "ISC"
+}
